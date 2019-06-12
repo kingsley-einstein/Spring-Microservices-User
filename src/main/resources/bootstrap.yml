@@ -1,0 +1,14 @@
+# server.port=8176
+# spring.application.name=user-service
+# spring.cloud.config.enabled=true
+# spring.cloud.config.uri=http://localhost:8284
+server:
+    port: 8176
+
+spring:
+    application:
+        name: user-service
+    cloud:
+        config:
+            enabled: true
+            uri: http://localhost:8284
